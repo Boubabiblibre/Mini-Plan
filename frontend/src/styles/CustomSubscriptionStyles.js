@@ -1,10 +1,11 @@
 import { StyleSheet } from 'react-native';
+import CustomSubscriptionScreen from '../components/screens/CustomSubscriptionScreen';
 
 const PURPLE = '#9B51E0';      // Violet du bouton
 const BORDER_VIOLET = '#C8B6E2'; 
 const BACKGROUND_DARK = '#1A1A1A';
 
-export default StyleSheet.create({
+const CustomSubscriptionStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000', // Fond noir
@@ -70,3 +71,5 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
+export default CustomSubscriptionStyles;

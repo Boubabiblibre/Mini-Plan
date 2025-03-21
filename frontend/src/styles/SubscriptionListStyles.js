@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export default StyleSheet.create({
+const SubscriptionListStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000', // Fond noir
@@ -95,3 +95,5 @@ export default StyleSheet.create({
     marginTop: -2, // Ajuste légèrement pour centrer
   },
 });
+
+export default SubscriptionListStyles;

@@ -7,7 +7,7 @@ import {
   SafeAreaView,
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; // Assurez-vous d'avoir installé react-native-vector-icons
-import styles from './CustomSubscriptionStyles';
+import styles from '../../styles/CustomSubscriptionStyles';
 
 const CustomSubscriptionScreen = () => {
   // États pour chaque champ

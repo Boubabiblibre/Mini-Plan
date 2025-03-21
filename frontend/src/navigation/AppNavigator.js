@@ -5,6 +5,11 @@ import DashboardScreen from '../components/screens/DashboardScreen';
 import HomeScreen from '../components/screens/HomeScreen';
 import LoginScreen from '../components/screens/LoginScreen';
 import RegisterScreen from '../components/screens/RegisterScreen';
+import ActiveSubscriptionScreen from '../components/screens/ActiveSubscriptionScreen';
+import AddSubscriptionScreen from '../components/screens/AddSubscriptionScreen';
+import AddSubscription2Screen from '../components/screens/AddSubscription2Screen';
+import SubscriptionListScreen from '../components/screens/SubscriptionListScreen';
+import CustomSubscriptionScreen from '../components/screens/CustomSubscriptionScreen';
 import { TouchableOpacity, View } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 import ProfileScreen from '../components/screens/ProfileScreen';
@@ -38,6 +43,11 @@ const AppNavigator = () => {
         <Stack.Screen name="Register" component={RegisterScreen} />
         <Stack.Screen name="Profile" component={ProfileScreen} />
         <Stack.Screen name="Dashboard" component={DashboardScreen} />
+        <Stack.Screen name="SubscriptionList" component={SubscriptionListScreen} />
+        <Stack.Screen name="ActiveSubscription" component={ActiveSubscriptionScreen} />
+        <Stack.Screen name="AddSubscription" component={AddSubscriptionScreen} />
+        <Stack.Screen name="AddSubscription2" component={AddSubscription2Screen} />
+        <Stack.Screen name="CustomSubscription" component={CustomSubscriptionScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

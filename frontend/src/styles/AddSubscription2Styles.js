@@ -1,10 +1,11 @@
 import { StyleSheet } from 'react-native';
+import AddSubscription2 from '../components/screens/AddSubscription2Screen';
 
 const PURPLE = '#9B51E0'; // Violet du bouton (à ajuster selon ta maquette)
 const BORDER_VIOLET = '#C8B6E2'; // Violet clair pour la bordure
 const BACKGROUND_DARK = '#1A1A1A'; // Gris très foncé
 
-export default StyleSheet.create({
+const AddSubscription2Styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000', // Fond noir
@@ -95,3 +96,5 @@ export default StyleSheet.create({
     fontWeight: 'bold',
   },
 });
+
+export default AddSubscription2Styles;

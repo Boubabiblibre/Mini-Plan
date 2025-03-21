@@ -7,7 +7,7 @@ import {
   Image 
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons'; // Assurez-vous d'avoir installé react-native-vector-icons
-import styles from './ActiveSubscriptionStyles';
+import styles from '../../styles/ActiveSubscriptionStyles';
 
 const ActiveSubscriptionScreen = () => {
   // Exemples de valeurs : 
@@ -16,7 +16,7 @@ const ActiveSubscriptionScreen = () => {
     price: 30, // en euros
     cycle: 'per month',
     paymentDueIn: 4, // jours restants
-    icon: require('../assets/amazon.png'), // chemin d’accès à l’icône Amazon
+    // icon: require('../assets/amazon.png'), // chemin d’accès à l’icône Amazon
   };
 
   // Fonctions éventuelles pour les boutons

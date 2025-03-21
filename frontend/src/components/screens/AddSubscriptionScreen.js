@@ -9,7 +9,7 @@ import {
 import { Ionicons } from '@expo/vector-icons'; // ou 'react-native-vector-icons/Ionicons'
 import styles from '../../styles/AddSubscriptionStyles';
 
-const AddSubscription = () => {
+const AddSubscriptionScreen = () => {
   // États pour chaque champ
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
@@ -144,3 +144,5 @@ const AddSubscription = () => {
     </SafeAreaView>
   );
 }
+
+export default AddSubscriptionScreen;

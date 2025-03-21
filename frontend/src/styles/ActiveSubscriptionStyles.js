@@ -5,7 +5,7 @@ const GREEN = '#72CE1D';
 const PURPLE = '#9B51E0';
 const BORDER_VIOLET = '#C8B6E2';
 
-export default StyleSheet.create({
+const ActiveSubscriptionStyles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#000', // Fond noir
@@ -100,3 +100,5 @@ export default StyleSheet.create({
     fontWeight: '600',
   },
 });
+
+export default ActiveSubscriptionStyles;

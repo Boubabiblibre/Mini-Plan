@@ -9,7 +9,7 @@ import {
 import { Ionicons } from '@expo/vector-icons'; // Assurez-vous d'avoir installé react-native-vector-icons
 import styles from '../../styles/AddSubscription2Styles'
 
-const AddSubscription2 = () => {
+const AddSubscription2Screen = () => {
   // États pour chaque champ (exemple)
   const [cycle, setCycle] = useState('Monthly');
   const [startDate, setStartDate] = useState('');
@@ -68,7 +68,7 @@ const AddSubscription2 = () => {
         */}
         <View style={styles.logoBorder}>
           <Image
-            source={require('../assets/youtube.png')} 
+            // source={require('../assets/youtube.png')} 
             style={styles.youtubeLogo}
           />
         </View>
@@ -122,4 +122,4 @@ const AddSubscription2 = () => {
   );
 }
 
-export default AddSubscription2;
+export default AddSubscription2Screen;

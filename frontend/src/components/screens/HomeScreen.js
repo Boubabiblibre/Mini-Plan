@@ -23,8 +23,24 @@ const HomeScreen = ({ navigation }) => {
         <Text style={styles.buttonText}>DASHBOARD</Text>
       </TouchableOpacity>
 
-      <TouchableOpacity style={[styles.button, styles.secondaryButton]} onPress={() => navigation.navigate('Profile')}>
-        <Text style={styles.buttonText}>PROFIL</Text>
+      <TouchableOpacity style={[styles.button, styles.secondaryButton]} onPress={() => navigation.navigate('SubscriptionList')}>
+        <Text style={styles.buttonText}>SUBSCRIPTION LIST</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={[styles.button, styles.secondaryButton]} onPress={() => navigation.navigate('ActiveSubscription')}>
+        <Text style={styles.buttonText}>ACTIVE SUBSCRIPTION</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={[styles.button, styles.secondaryButton]} onPress={() => navigation.navigate('AddSubscription')}>
+        <Text style={styles.buttonText}>ADD SUBSCRIPTION</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={[styles.button, styles.secondaryButton]} onPress={() => navigation.navigate('AddSubscription2')}>
+        <Text style={styles.buttonText}>ADD SUBSCRIPTION 2</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity style={[styles.button, styles.secondaryButton]} onPress={() => navigation.navigate('CustomSubscription')}>
+        <Text style={styles.buttonText}>CUSTOM LIST SUBSCRIPTION</Text>
       </TouchableOpacity>
     </View>
   );

@@ -16,32 +16,32 @@ const SUBSCRIPTIONS = [
   {
     id: '1',
     name: 'Netflix',
-    icon: require('../assets/netflix.png'), // À adapter
+    // icon: require('../assets/netflix.png'), // À adapter
   },
   {
     id: '2',
     name: 'Amazon',
-    icon: require('../assets/amazon.png'), // À adapter
+    // icon: require('../assets/amazon.png'), // À adapter
   },
   {
     id: '3',
     name: 'Spotify',
-    icon: require('../assets/spotify.png'), // À adapter
+    // icon: require('../assets/spotify.png'), // À adapter
   },
   {
     id: '4',
     name: 'Youtube',
-    icon: require('../assets/youtube.png'), // À adapter
+    // icon: require('../assets/youtube.png'), // À adapter
   },
   {
     id: '5',
     name: 'Prime',
-    icon: require('../assets/prime.png'), // À adapter
+    // icon: require('../assets/prime.png'), // À adapter
   },
   {
     id: '6',
     name: 'Prime',
-    icon: require('../assets/prime.png'), // Duplicate pour l’exemple
+    // icon: require('../assets/prime.png'), // Duplicate pour l’exemple
   },
 ];
 
