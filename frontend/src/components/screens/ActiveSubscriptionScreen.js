@@ -6,7 +6,6 @@ import {
   SafeAreaView, 
   Image 
 } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // Assurez-vous d'avoir installé react-native-vector-icons
 import styles from '../../styles/ActiveSubscriptionStyles';
 
 const ActiveSubscriptionScreen = () => {
@@ -32,16 +31,6 @@ const ActiveSubscriptionScreen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Header avec flèche de retour */}
-      <View style={styles.header}>
-        <TouchableOpacity
-          style={styles.backButton}
-          onPress={() => navigation?.goBack?.()}
-        >
-          <Ionicons name="arrow-back" size={24} color="#72CE1D" />
-        </TouchableOpacity>
-      </View>
-
       {/* Carte d’abonnement */}
       <View style={styles.cardContainer}>
         {/* Icône */}

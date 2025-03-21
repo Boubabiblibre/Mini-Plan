@@ -50,16 +50,6 @@ const AddSubscription2Screen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Header */}
-      <View style={styles.header}>
-        <TouchableOpacity
-          style={styles.backButton}
-          onPress={() => navigation?.goBack?.()}
-        >
-          <Ionicons name="arrow-back" size={24} color="#72CE1D" />
-        </TouchableOpacity>
-      </View>
-
       {/* Logo YouTube */}
       <View style={styles.logoContainer}>
         {/* Exemple si tu as une icône YouTube dans tes assets :

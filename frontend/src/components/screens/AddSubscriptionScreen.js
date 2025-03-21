@@ -6,11 +6,10 @@ import {
   TouchableOpacity,
   SafeAreaView,
 } from 'react-native';
-import { Ionicons } from '@expo/vector-icons'; // ou 'react-native-vector-icons/Ionicons'
+import { Ionicons } from '@expo/vector-icons';
 import styles from '../../styles/AddSubscriptionStyles';
 
 const AddSubscriptionScreen = () => {
-  // États pour chaque champ
   const [firstName, setFirstName] = useState('');
   const [lastName, setLastName] = useState('');
   const [pseudo, setPseudo] = useState('');
@@ -19,29 +18,12 @@ const AddSubscriptionScreen = () => {
   const [birth, setBirth] = useState('');
   const [gender, setGender] = useState('');
 
-  const handleUpdate = () => {
-    // Logique de validation ou d’envoi de données (API) 
+  const handleUpdate = () => { 
     console.log('AddSubscription form submitted!');
   };
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Header */}
-      <View style={styles.header}>
-        <TouchableOpacity
-          style={styles.backButton}
-          onPress={() => navigation?.goBack?.()}
-        >
-          <Ionicons name="arrow-back" size={24} color="#fff" />
-        </TouchableOpacity>
-        <Text style={styles.headerTitle}>Edit profile</Text>
-        {/* 
-          Si tu veux vraiment “Add Subscription”, remplace le texte ci-dessus par :
-          <Text style={styles.headerTitle}>Add Subscription</Text>
-        */}
-      </View>
-
-      {/* Formulaire */}
       <View style={styles.formContainer}>
         <Text style={styles.label}>First Name</Text>
         <TextInput

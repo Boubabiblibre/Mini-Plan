@@ -51,16 +51,6 @@ const CustomSubscriptionScreen = () => {
 
   return (
     <SafeAreaView style={styles.container}>
-      {/* Header avec flèche pour revenir en arrière */}
-      <View style={styles.header}>
-        <TouchableOpacity
-          style={styles.backButton}
-          onPress={() => navigation?.goBack?.()}
-        >
-          <Ionicons name="arrow-back" size={24} color="#72CE1D" />
-        </TouchableOpacity>
-      </View>
-
       {/* Formulaire */}
       <View style={styles.formContainer}>
 
